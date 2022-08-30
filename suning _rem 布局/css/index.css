@@ -1,0 +1,221 @@
+html {
+  font-size: 50px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 21.33333333px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 360px / 15;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 375px / 15;
+  }
+}
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 384px / 15;
+  }
+}
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 400px / 15;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 414px / 15;
+  }
+}
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 424px / 15;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 480px / 15;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 540px / 15;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 720px / 15;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 750px / 15;
+  }
+}
+body {
+  min-width: 320px;
+  width: 15rem;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, STHeiTi, sans-serif;
+  background: #F2F2F2;
+}
+ul,
+ol {
+  list-style: none;
+}
+.top-banner {
+  position: relative;
+  width: 750rem / 50px;
+  height: 100rem / 50px;
+}
+.top-banner .top-banner-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.top-banner .top-banner-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.top-banner .close {
+  position: absolute;
+  left: 0.1rem;
+  top: 0.5rem;
+  width: 50rem / 50px;
+  height: 50rem / 50px;
+  background: url(../images/close.png) no-repeat center center;
+  background-size: 30rem / 50px auto;
+}
+.header {
+  width: 750rem / 50px;
+  height: 180rem / 50px;
+  background-color: #ffdb47;
+  margin-bottom: 0;
+}
+.header .header-top {
+  display: flex;
+  width: 682rem / 50px;
+  height: 88rem / 50px;
+  padding: 0 34rem / 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header-top .classify img {
+  display: block;
+  width: 36rem / 50px;
+  height: 60rem / 50px;
+}
+.header .header-top .ad img {
+  display: block;
+  width: 450rem / 50px;
+  height: 55rem / 50px;
+  margin-right: 50rem / 50px;
+}
+.header .header-top .login img {
+  display: block;
+  width: 36rem / 50px;
+  height: 60rem / 50px;
+}
+.header .search {
+  position: relative;
+  width: 750rem / 50px;
+  height: 92rem / 50px;
+  padding: 0 24rem / 50px;
+  box-sizing: border-box;
+}
+.header .search a {
+  position: absolute;
+  top: 0;
+  left: 24rem / 50px;
+  width: 702rem / 50px;
+  height: 88rem / 50px;
+}
+.header .search i {
+  position: absolute;
+  left: 42rem / 50px;
+  top: 26rem / 50px;
+  width: 36rem / 50px;
+  height: 36rem / 50px;
+  background: url(../images/search_btn.png) no-repeat 0 0;
+  background-size: 36rem / 50px auto;
+}
+.header .search form {
+  display: flex;
+  width: 702rem / 50px;
+  height: 88rem / 50px;
+  align-items: center;
+}
+.header .search form input {
+  width: 702rem / 50px;
+  height: 64rem / 50px;
+  padding: 3rem / 50px 20rem / 50px 0 65rem / 50px;
+  border: 0;
+  border-radius: 32rem / 50px;
+  box-sizing: border-box;
+  font-size: 0.56rem;
+  line-height: 64rem / 50px;
+}
+.banner {
+  width: 750rem / 50px;
+  height: 260rem / 50px;
+  background: url(../images/banner_bg.png) no-repeat 0 0;
+  background-size: 750rem / 50px auto;
+}
+.banner .wrapper {
+  width: 702rem / 50px;
+  height: 260rem / 50px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.banner .wrapper ul {
+  position: relative;
+  width: 2000rem / 50px;
+  height: 260rem / 50px;
+  margin: 0;
+}
+.banner .wrapper ul li {
+  position: absolute;
+  left: 702rem / 50px;
+  top: 0;
+  width: 702rem / 50px;
+  height: 260rem / 50px;
+  border-radius: 24rem / 50px;
+  overflow: hidden;
+}
+.banner .wrapper ul li.current {
+  left: 0;
+}
+.banner .wrapper ul li img {
+  width: 702rem / 50px;
+  height: 260rem / 50px;
+}
+.nav {
+  width: 750rem / 50px;
+  height: 308rem / 50px;
+}
+.nav a {
+  float: left;
+  width: 150rem / 50px;
+  height: 142rem / 50px;
+  text-decoration: none;
+  color: #666;
+  font-size: 22rem / 50px;
+}
+.nav a img {
+  display: block;
+  width: 84rem / 50px;
+  height: 84rem / 50px;
+  margin: 24rem / 50px 33rem / 50px 0;
+}
+.nav a p {
+  height: 28rem / 50px;
+  margin-top: 5rem / 50px;
+  line-height: 28rem / 50px;
+  text-align: center;
+}
